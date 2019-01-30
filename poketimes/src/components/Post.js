@@ -22,7 +22,7 @@ class Post extends Component {
                 <p>{this.state.post.body}</p>
             </div>
         ) : (
-            <div class="center">Loading post...</div>
+            <div className="center">Loading post...</div>
         )
 
         return (
